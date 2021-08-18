@@ -1,7 +1,6 @@
 import { API_KEY } from "../../local/config";
 import { fetch } from "meteor/fetch";
 import { useQuery } from "react-query";
-import { Meteor } from "meteor/meteor";
 
 export const fetchData = () => {
   return useQuery(
